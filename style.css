@@ -1,0 +1,71 @@
+body {
+  background-image: url("images/background/technology.jpg");
+}
+header h1, h2, h3 {
+  font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+  color: goldenrod;
+}
+article, header, footer {
+  background-color: rgba(3, 26, 153, 0.918);
+}
+header, h2, hr {
+  margin: -1px 400px 8px 400px;
+}
+main, footer {
+  color: goldenrod;
+  text-align: center; 
+}
+header, main, footer {
+  letter-spacing: 1px;
+}
+main article, section, footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 7px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+main article section p {
+  margin-left: -200px;
+  margin-right: -200px;
+}
+ul{
+  list-style-position: inside;
+  list-style: none;
+  margin-right: -400px;
+  margin-left: -430px;
+  font-size: 18px;
+}
+ol {
+  list-style-position: outside;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  }
+a:link {
+  color:goldenrod;
+}
+a:visited {
+  color: rgb(184, 139, 28);
+}
+a:hover {
+  transition-duration: .7s;
+  color:yellow;
+  letter-spacing: 2px;
+}
+a:target {
+  transition-duration: .3s;
+  color: wheat;
+}
+main hr, footer hr {
+  margin: -3px 200px -10px 200px;
+}
+footer {
+  padding-bottom: 5px;
+}
