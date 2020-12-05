@@ -1,3 +1,4 @@
+/*common styles*/
 body {
   background-image: url("images/background/technology.jpg");
 }
@@ -32,6 +33,11 @@ main article section p {
   margin-left: -200px;
   margin-right: -200px;
 }
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  }
+/*list styles*/
 ul{
   list-style-position: inside;
   list-style: none;
@@ -44,10 +50,7 @@ ol {
   font-size: 18px;
   margin-left: 20px;
 }
-.img-wrapper {
-  display: flex;
-  justify-content: center;
-  }
+/*link styles*/
 a:link {
   color:goldenrod;
 }
@@ -63,9 +66,11 @@ a:target {
   transition-duration: .3s;
   color: wheat;
 }
+/*rule styles*/
 main hr, footer hr {
   margin: -3px 200px -10px 200px;
 }
+/*footer styles*/
 footer {
   padding-bottom: 5px;
 }
