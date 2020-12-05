@@ -4,7 +4,9 @@ body {
   width: 100%;
   background-image: url("images/background/technology.jpg");
 }
-
+header {
+  padding-top: 5px;
+}
 h1, h2, h3, h4 {
   font-family: 'Sansita Swashed', cursive;
   text-align: center;
@@ -22,6 +24,9 @@ main, footer {
 }
 p {
   letter-spacing: 1px;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 40px;
 }
 main article, section, footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
